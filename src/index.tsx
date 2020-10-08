@@ -1,3 +1,3 @@
-import BarCodeScanner from './BarcpdeScanner';
+import BarCodeScanner from './BarCodeScanner';
 
 export default BarCodeScanner;

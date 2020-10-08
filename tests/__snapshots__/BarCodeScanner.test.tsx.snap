@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarCodeScanner /> should render correctly 1`] = `
+<div
+  id="scanner-container"
+>
+  <video
+    className="dbrScanner-video"
+    id="video"
+    playsInline={true}
+  />
+</div>
+`;
