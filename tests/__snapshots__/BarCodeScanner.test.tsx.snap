@@ -1,5 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<BarCodeScanner /> should match the properties 1`] = `
+<BarCodeScanner
+  onUpdate={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          [TypeError: Cannot read property 'getUserMedia' of undefined],
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <div
+    id="scanner-container"
+  >
+    <video
+      className="dbrScanner-video"
+      id="video"
+      playsInline={true}
+    />
+  </div>
+</BarCodeScanner>
+`;
+
 exports[`<BarCodeScanner /> should render correctly 1`] = `
 <div
   id="scanner-container"
