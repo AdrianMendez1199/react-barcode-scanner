@@ -10,6 +10,7 @@ const BarCodeScanner = (
 
     codeReader.decodeOnceFromVideoDevice(undefined, 'video')
       .then((result) => {
+        /* istanbul ignore next */ 
         onUpdate(null, result)
       }).catch((e) => {
         onUpdate(e, undefined)
