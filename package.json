@@ -2,11 +2,13 @@
   "name": "react-barcode-scanner",
   "version": "1.0.0",
   "description": "react component to scan barcode",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage && coveralls < ./coverage/lcov.info"
+    "coverage": "jest --coverage && coveralls < ./coverage/lcov.info",
+    "prepublish": "tsc"
   },
   "keywords": [
     "react",
@@ -38,11 +40,11 @@
     ]
   },
   "dependencies": {
-    "@types/react": "^16.9.51",
     "@zxing/library": "^0.17.1",
     "react": "^16.13.1"
   },
   "devDependencies": {
+    "@types/react": "^16.9.51", 
     "@types/enzyme": "^3.10.7",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/enzyme-to-json": "^1.5.4",
