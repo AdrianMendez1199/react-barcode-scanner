@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "react component to scan barcode",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage && coveralls < ./coverage/lcov.info --verbose"
+    "coverage": "jest --coverage && coveralls < ./coverage/lcov.info"
   },
   "keywords": [
     "react",
@@ -55,5 +56,16 @@
     "react-dom": "^16.13.1",
     "ts-jest": "^26.4.1",
     "typescript": "^4.0.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianMendez1199/react-barcode-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdrianMendez1199/react-barcode-scanner/issues"
+  },
+  "homepage": "https://github.com/AdrianMendez1199/react-barcode-scanner#readme"
 }
